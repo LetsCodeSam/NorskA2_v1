@@ -1,72 +1,232 @@
 {
   "title": "Section 1 – Park Scene",
   "slug": "section-1",
+  "image": "assets/park-scene.png",
   "subsections": [
     {
       "type": "describe_picture",
       "title": "Describe the picture",
       "tiers": {
         "desc": [
-          { "no":"En gutt flyr en drage.", "pron":"En GUTT FLYR en DRAH-ge.", "en":"A boy is flying a kite." },
-          { "no":"En kvinne bærer ski gjennom parken.", "pron":"En KVIN-ne BÆR-er ski GJEN-nom PAR-ken.", "en":"A woman carries skis through the park." },
-          { "no":"En hund løper etter ballen.", "pron":"En HUND LØ-per ET-ter BAL-len.", "en":"A dog runs after the ball." },
-          { "no":"To barn sykler på stien.", "pron":"To BARN SYK-ler på STI-en.", "en":"Two children are cycling on the path." },
-          { "no":"En mann sitter på en benk og leser avisen.", "pron":"En MANN SIT-ter på en BENK og LEH-ser a-VEE-sen.", "en":"A man is sitting on a bench and reading the newspaper." },
-          { "no":"Et par går tur sammen med en barnevogn.", "pron":"Et PAR går TUR SAM-men med en BAR-ne-vogn.", "en":"A couple are walking together with a stroller." },
-          { "no":"Solen skinner, og himmelen er blå.", "pron":"SO-len SKIN-ner, og HIM-me-len er BLÅ.", "en":"The sun is shining, and the sky is blue." },
-          { "no":"Trærne er grønne og vakre.", "pron":"TRÆR-ne er GRØN-ne og VAK-re.", "en":"The trees are green and beautiful." }
+          { "no": "En gutt flyr en drage.", "pron": "En GUTT FLYR en DRAH-ge.", "en": "A boy is flying a kite." },
+          { "no": "En kvinne bærer ski gjennom parken.", "pron": "En KVIN-ne BÆR-er ski GJEN-nom PAR-ken.", "en": "A woman carries skis through the park." },
+          { "no": "En hund løper etter ballen.", "pron": "En HUND LØ-per ET-ter BAL-len.", "en": "A dog runs after the ball." },
+          { "no": "To barn sykler på stien.", "pron": "To BARN SYK-ler på STI-en.", "en": "Two children are cycling on the path." },
+          { "no": "En mann sitter på en benk og leser avisen.", "pron": "En MANN SIT-ter på en BENK og LEH-ser a-VEE-sen.", "en": "A man is sitting on a bench and reading the newspaper." },
+          { "no": "Et par går tur sammen med en barnevogn.", "pron": "Et PAR går TUR SAM-men med en BAR-ne-vogn.", "en": "A couple are walking together with a stroller." },
+          { "no": "Solen skinner, og himmelen er blå.", "pron": "SO-len SKIN-ner, og HIM-me-len er BLÅ.", "en": "The sun is shining, and the sky is blue." },
+          { "no": "Trærne er grønne og vakre.", "pron": "TRÆR-ne er GRØN-ne og VAK-re.", "en": "The trees are green and beautiful." }
         ],
         "qa": [
-          { "noQ":"Hva gjør gutten?", "pronQ":"Hva JØR GUT-ten?", "enQ":"What is the boy doing?",
-            "noA":"Han flyr en drage.", "pronA":"Han FLYR en DRAH-ge.", "enA":"He is flying a kite." },
-          { "noQ":"Hva gjør kvinnen med skiene?", "pronQ":"Hva JØR KVIN-nen med SKI-ene?", "enQ":"What is the woman with the skis doing?",
-            "noA":"Hun bærer ski gjennom parken.", "pronA":"Hun BÆR-er SKI GJEN-nom PAR-ken.", "enA":"She is carrying skis through the park." },
-          { "noQ":"Hva gjør hunden?", "pronQ":"Hva JØR HUN-den?", "enQ":"What is the dog doing?",
-            "noA":"Den løper etter ballen.", "pronA":"DEN LØ-per ET-ter BAL-len.", "enA":"It is running after the ball." }
+          {
+            "noQ": "Hva gjør gutten?",
+            "pronQ": "Hva JØR GUT-ten?",
+            "enQ": "What is the boy doing?",
+            "noA": "Han flyr en drage.",
+            "pronA": "Han FLYR en DRAH-ge.",
+            "enA": "He is flying a kite."
+          },
+          {
+            "noQ": "Hva gjør kvinnen med skiene?",
+            "pronQ": "Hva JØR KVIN-nen med SKI-ene?",
+            "enQ": "What is the woman with the skis doing?",
+            "noA": "Hun bærer ski gjennom parken.",
+            "pronA": "Hun BÆR-er SKI GJEN-nom PAR-ken.",
+            "enA": "She is carrying skis through the park."
+          },
+          {
+            "noQ": "Hva gjør hunden?",
+            "pronQ": "Hva JØR HUN-den?",
+            "enQ": "What is the dog doing?",
+            "noA": "Den løper etter ballen.",
+            "pronA": "DEN LØ-per ET-ter BAL-len.",
+            "enA": "It is running after the ball."
+          }
         ],
         "pronoun": [
-          { "no":"Jeg ser en gutt. Han flyr en drage.", "pron":"YAI ser en GUTT. HAN FLYR en DRAH-ge.", "en":"I see a boy. He is flying a kite." },
-          { "no":"Jeg ser en kvinne. Hun bærer ski.", "pron":"YAI ser en KVIN-ne. HUN BÆR-er SKI.", "en":"I see a woman. She is carrying skis." },
-          { "no":"Jeg ser to barn. De sykler på stien.", "pron":"YAI ser to BARN. DE SYK-ler på STI-en.", "en":"I see two children. They are cycling on the path." }
+          { "no": "Jeg ser en gutt. Han flyr en drage.", "pron": "YAI ser en GUTT. HAN FLYR en DRAH-ge.", "en": "I see a boy. He is flying a kite." },
+          { "no": "Jeg ser en kvinne. Hun bærer ski.", "pron": "YAI ser en KVIN-ne. HUN BÆR-er SKI.", "en": "I see a woman. She is carrying skis." },
+          { "no": "Jeg ser to barn. De sykler på stien.", "pron": "YAI ser to BARN. DE SYK-ler på STI-en.", "en": "I see two children. They are cycling on the path." }
         ],
         "miniFree": [
-          { "no":"Jeg ser mange mennesker i parken. De leker, går tur og koser seg i solen.", "pron":"YAI ser MAN-ge MEN-nes-ker i PAR-ken. DE LEH-ker, går TUR og KOH-ser seg i SO-len.", "en":"I see many people in the park. They are playing, walking, and enjoying the sun." }
+          { "no": "Jeg ser mange mennesker i parken. De leker, går tur og koser seg i solen.", "pron": "YAI ser MAN-ge MEN-nes-ker i PAR-ken. DE LEH-ker, går TUR og KOH-ser seg i SO-len.", "en": "I see many people in the park. They are playing, walking, and enjoying the sun." }
         ],
         "ex1": [
-          { "no":"Gutten ____ en drage. (fly)", "pron":"GUT-ten ____ en DRAH-ge.", "en":"The boy ____ a kite.", "ans":"flyr" },
-          { "no":"Kvinnen ____ ski gjennom parken. (bære)", "pron":"KVIN-nen ____ ski GJEN-nom PAR-ken.", "en":"The woman ____ skis through the park.", "ans":"bærer" },
-          { "no":"Hunden ____ etter ballen. (løpe)", "pron":"HUN-den ____ ET-ter BAL-len.", "en":"The dog ____ after the ball.", "ans":"løper" }
+          { "no": "Gutten ____ en drage. (fly)", "pron": "GUT-ten ____ en DRAH-ge.", "en": "The boy ____ a kite.", "ans": "flyr" },
+          { "no": "Kvinnen ____ ski gjennom parken. (bære)", "pron": "KVIN-nen ____ ski GJEN-nom PAR-ken.", "en": "The woman ____ skis through the park.", "ans": "bærer" },
+          { "no": "Hunden ____ etter ballen. (løpe)", "pron": "HUN-den ____ ET-ter BAL-len.", "en": "The dog ____ after the ball.", "ans": "løper" }
         ],
         "mono": [
-          { "no":"Beskriv parken i ca. 2 minutter. Snakk om hvem som er der, hva de gjør, og hvordan været er.", 
-            "pron":"Be-SKREEV PAR-ken i SA to mi-NU-ter. SNAKK om Hvem som er der, hva de JØR, og HVOR-dan VÆR-et er.", 
-            "en":"Describe the park for about 2 minutes. Talk about who is there, what they are doing, and what the weather is like." },
-
-          { "no":"Beskriv parken i ca. 3 minutter. Fortell mer detaljert om menneskene, hva de gjør, og hvordan stemningen er. Sammenlign med dine egne erfaringer og si hva du liker å gjøre i en park.", 
-            "pron":"Be-SKREEV PAR-ken i SA tre mi-NU-ter. For-TELL mer de-TALJ-ert om MEN-nes-ken-e, hva de JØR, og HVOR-dan STEM-ning-en er. SAM-men-lign med DINE EG-ne er-FAHR-ing-er og SI hva du LEE-ker å GJØR-e i en park.", 
-            "en":"Describe the park for about 3 minutes. Tell in more detail about the people, what they are doing, and what the atmosphere is like. Compare with your own experiences and say what you like to do in a park." }
+          {
+            "no": "Beskriv parken i ca. 2 minutter. Snakk om hvem som er der, hva de gjør, og hvordan været er.",
+            "pron": "Be-SKREEV PAR-ken i SA to mi-NU-ter. SNAKK om HVEM som er der, hva de JØR, og HVOR-dan VÆR-et er.",
+            "en": "Describe the park for about 2 minutes. Talk about who is there, what they are doing, and what the weather is like.",
+            "model": [
+              { "no": "En gutt flyr en drage i parken.", "pron": "En GUTT FLYR en DRAH-ge i PAR-ken.", "en": "A boy is flying a kite in the park." },
+              { "no": "En kvinne bærer ski gjennom gresset.", "pron": "En KVIN-ne BÆR-er SKI GJEN-nom GRES-set.", "en": "A woman is carrying skis across the grass." },
+              { "no": "En hund løper etter ballen, og den ser veldig energisk ut.", "pron": "En HUND LØ-per ET-ter BAL-len, og den ser VEL-dig e-ner-GISK ut.", "en": "A dog is running after the ball, and it looks very energetic." },
+              { "no": "To barn sykler på stien, og de smiler.", "pron": "To BARN SYK-ler på STI-en, og de SMI-ler.", "en": "Two children are cycling on the path, and they are smiling." },
+              { "no": "En mann sitter på en benk og leser avisen.", "pron": "En MANN SIT-ter på en BENK og LEH-ser a-VEE-sen.", "en": "A man is sitting on a bench and reading the newspaper." },
+              { "no": "Solen skinner, himmelen er blå, og trærne er grønne.", "pron": "SO-len SKIN-ner, HIM-me-len er BLÅ, og TRÆR-ne er GRØN-ne.", "en": "The sun is shining, the sky is blue, and the trees are green." },
+              { "no": "Jeg synes parken ser rolig og koselig ut.", "pron": "YAI SYN-nes PAR-ken ser ROH-lig og KOH-se-lig ut.", "en": "I think the park looks calm and cozy." }
+            ]
+          },
+          {
+            "no": "Beskriv parken i ca. 3 minutter. Fortell mer detaljert om menneskene, hva de gjør, og hvordan stemningen er. Sammenlign med dine egne erfaringer og si hva du liker å gjøre i en park.",
+            "pron": "Be-SKREEV PAR-ken i SA tre mi-NU-ter. For-TELL mer de-TALJ-ert om MEN-nes-ken-e, hva de JØR, og HVOR-dan STEM-ning-en er. SAM-men-lign med DINE EG-ne er-FAHR-ing-er og SI hva du LEE-ker å GJØR-e i en park.",
+            "en": "Describe the park for about 3 minutes. Tell in more detail about the people, what they are doing, and what the atmosphere is like. Compare with your own experiences and say what you like to do in a park.",
+            "model": [
+              { "no": "En gutt flyr en stor rød drage som svever høyt på himmelen.", "pron": "En GUTT FLYR en STOR rød DRAH-ge som SVE-ver HØYT på HIM-me-len.", "en": "A boy is flying a big red kite that soars high in the sky." },
+              { "no": "En kvinne bærer ski, selv om det er sol og sommer, og det ser litt morsomt ut.", "pron": "En KVIN-ne BÆR-er SKI, selv om det er SOL og SOM-mer, og det ser litt MOR-somt ut.", "en": "A woman is carrying skis, even though it’s sunny and summer, and it looks a bit funny." },
+              { "no": "En hund løper raskt etter en ball, og noen barn heier på den.", "pron": "En HUND LØ-per RASKT ET-ter en BALL, og NO-en BARN HEI-er på den.", "en": "A dog runs fast after a ball, and some children are cheering for it." },
+              { "no": "To barn sykler rolig på stien, og de bruker hjelm.", "pron": "To BARN SYK-ler ROH-lig på STI-en, og de BRU-ker HJELM.", "en": "Two children are cycling calmly on the path, and they are wearing helmets." },
+              { "no": "En mann sitter på benken og leser i avisen, kanskje om nyheter eller sport.", "pron": "En MANN SIT-ter på BENK-en og LEH-ser i a-VEE-sen, KAN-skje om NY-heter eller SPORT.", "en": "A man sits on the bench reading the newspaper, maybe about news or sports." },
+              { "no": "Et par går tur med en barnevogn, og de prater sammen.", "pron": "Et PAR GÅR TUR med en BAR-ne-vogn, og de PRA-ter SAM-men.", "en": "A couple is walking with a stroller, and they are talking together." },
+              { "no": "Solen skinner sterkt, trærne er grønne, og det blåser litt.", "pron": "SO-len SKIN-ner STERKT, TRÆR-ne er GRØN-ne, og det BLÅ-ser litt.", "en": "The sun is shining strongly, the trees are green, and there is a little wind." },
+              { "no": "Stemningen virker hyggelig, fordi folk smiler og gjør rolige aktiviteter.", "pron": "STEM-ning-en VIR-ker HYG-ge-lig, for-DI folk SMI-ler og JØR ROH-li-ge ak-ti-vi-TE-ter.", "en": "The mood seems pleasant, because people are smiling and doing calm activities." },
+              { "no": "Jeg liker å lese en bok på en benk i parken, eller gå en tur.", "pron": "YAI LEE-ker å LEH-se en BOK på en BENK i PAR-ken, eller GÅ en TUR.", "en": "I like to read a book on a bench in the park, or go for a walk." },
+              { "no": "I mitt hjemland er parkene litt annerledes, men jeg liker å slappe av der også.", "pron": "I MITT HJEM-land er PAR-kene litt AN-ner-led-es, men YAI LEE-ker å SLAP-pe AV der ÅG-så.", "en": "In my home country the parks are a bit different, but I like to relax there too." }
+            ]
+          }
         ]
       },
       "verbs": [
-        { "inf":"fly", "pres":"flyr", "pret":"fløy", "perf":"har fløyet", "fut":"skal fly", "notes":"⚠ irregular" },
-        { "inf":"bære", "pres":"bærer", "pret":"bar", "perf":"har båret", "fut":"skal bære", "notes":"⚠ irregular" },
-        { "inf":"løpe", "pres":"løper", "pret":"løp", "perf":"har løpt", "fut":"skal løpe", "notes":"⚠ irregular" },
-        { "inf":"sykle", "pres":"sykler", "pret":"syklet", "perf":"har syklet", "fut":"skal sykle", "notes":"" },
-        { "inf":"sitte", "pres":"sitter", "pret":"satt", "perf":"har sittet", "fut":"skal sitte", "notes":"⚠ irregular" },
-        { "inf":"lese", "pres":"leser", "pret":"leste", "perf":"har lest", "fut":"skal lese", "notes":"" },
-        { "inf":"gå", "pres":"går", "pret":"gikk", "perf":"har gått", "fut":"skal gå", "notes":"⚠ irregular" },
-        { "inf":"skinne", "pres":"skinner", "pret":"skinny", "perf":"har skint", "fut":"skal skinne", "notes":"" },
-        { "inf":"være", "pres":"er", "pret":"var", "perf":"har vært", "fut":"skal være", "notes":"⚠ irregular" }
+        { "inf": "fly", "pres": "flyr", "pret": "fløy", "perf": "har fløyet", "fut": "skal fly", "notes": "⚠ irregular" },
+        { "inf": "bære", "pres": "bærer", "pret": "bar", "perf": "har båret", "fut": "skal bære", "notes": "⚠ irregular" },
+        { "inf": "løpe", "pres": "løper", "pret": "løp", "perf": "har løpt", "fut": "skal løpe", "notes": "⚠ irregular" },
+        { "inf": "sykle", "pres": "sykler", "pret": "syklet", "perf": "har syklet", "fut": "skal sykle", "notes": "" },
+        { "inf": "sitte", "pres": "sitter", "pret": "satt", "perf": "har sittet", "fut": "skal sitte", "notes": "⚠ irregular" },
+        { "inf": "lese", "pres": "leser", "pret": "leste", "perf": "har lest", "fut": "skal lese", "notes": "" },
+        { "inf": "gå", "pres": "går", "pret": "gikk", "perf": "har gått", "fut": "skal gå", "notes": "⚠ irregular" },
+        { "inf": "skinne", "pres": "skinner", "pret": "skinte", "perf": "har skint", "fut": "skal skinne", "notes": "" },
+        { "inf": "være", "pres": "er", "pret": "var", "perf": "har vært", "fut": "skal være", "notes": "⚠ irregular" }
       ]
     },
-    { "type": "pronoun_drill", "title": "Pronoun Drill", "items": [] },
-    { "type": "qa_pack", "title": "Q&A Pack", "items": [] },
-    { "type": "vocab", "title": "Vocabulary Cycle", "items": [] },
-    { "type": "tense_drill", "title": "Tense Drill", "items": [] },
-    { "type": "connectors", "title": "Connectors Practice", "items": [] },
-    { "type": "small_talk", "title": "Small Talk", "items": [] },
-    { "type": "exercise_fill", "title": "Fill-in-the-blanks", "items": [] },
-    { "type": "exercise_correct", "title": "Sentence Correction", "items": [] },
-    { "type": "free_monologue", "title": "Extended Free Description", "items": [] }
+    {
+        "type": "pronoun_drill",
+        "title": "Pronoun Drill",
+        "items": [
+            { "no":"Jeg ser en gutt. Han flyr en drage.", "pron":"YAI ser en GUTT. HAN FLYR en DRAH-ge.", "en":"I see a boy. He is flying a kite." },
+            { "no":"Jeg ser en kvinne. Hun bærer ski.", "pron":"YAI ser en KVIN-ne. HUN BÆR-er SKI.", "en":"I see a woman. She is carrying skis." },
+            { "no":"Jeg ser to barn. De sykler på stien.", "pron":"YAI ser to BARN. DE SYK-ler på STI-en.", "en":"I see two children. They are cycling on the path." },
+            { "no":"Jeg ser en hund. Den løper etter ballen.", "pron":"YAI ser en HUND. DEN LØ-per ET-ter BAL-len.", "en":"I see a dog. It is running after the ball." },
+            { "no":"Jeg ser et par. De går tur.", "pron":"YAI ser et PAR. DE GÅR TUR.", "en":"I see a couple. They are going for a walk." },
+            { "no":"Jeg ser en mann. Han leser avisen.", "pron":"YAI ser en MANN. HAN LEH-ser a-VEE-sen.", "en":"I see a man. He is reading the newspaper." }
+        ]
+    },
+    {
+      "type": "qa_pack",
+      "title": "Q&A Pack",
+      "items": [
+        { "noQ":"Hva gjør gutten?", "pronQ":"Hva JØR GUT-ten?", "enQ":"What is the boy doing?",
+          "noA":"Han flyr en drage.", "pronA":"Han FLYR en DRAH-ge.", "enA":"He is flying a kite." },
+        { "noQ":"Hva gjør kvinnen med skiene?", "pronQ":"Hva JØR KVIN-nen med SKI-ene?", "enQ":"What is the woman with the skis doing?",
+          "noA":"Hun bærer skiene gjennom parken.", "pronA":"Hun BÆR-er SKI-ene GJEN-nom PAR-ken.", "enA":"She is carrying the skis through the park." },
+        { "noQ":"Hva gjør hunden?", "pronQ":"Hva JØR HUN-den?", "enQ":"What is the dog doing?",
+          "noA":"Den løper etter ballen.", "pronA":"DEN LØ-per ET-ter BAL-len.", "enA":"It is running after the ball." },
+        { "noQ":"Hva gjør mannen på benken?", "pronQ":"Hva JØR MAN-nen på BENK-en?", "enQ":"What is the man on the bench doing?",
+          "noA":"Han leser avisen.", "pronA":"Han LEH-ser a-VEE-sen.", "enA":"He is reading the newspaper." },
+        { "noQ":"Hva gjør paret?", "pronQ":"Hva JØR PAH-ret?", "enQ":"What is the couple doing?",
+          "noA":"De går tur med barnevogn.", "pronA":"De GÅR TUR med BAR-ne-vogn.", "enA":"They are walking with a stroller." }
+    ]
+    },
+    {
+      "type": "vocab",
+      "title": "Vocabulary Cycle",
+      "items": [
+        { "no":"en park", "pron":"en PARK", "en":"a park" },
+        { "no":"en drage", "pron":"en DRAH-ge", "en":"a kite" },
+        { "no":"en benk", "pron":"en BENK", "en":"a bench" },
+        { "no":"en avis", "pron":"en a-VIS", "en":"a newspaper" },
+        { "no":"en barnevogn", "pron":"en BAR-ne-vogn", "en":"a stroller" },
+        { "no":"en hund", "pron":"en HUND", "en":"a dog" },
+        { "no":"et tre", "pron":"et TREH", "en":"a tree" },
+        { "no":"en sti", "pron":"en STI", "en":"a path" },
+        { "no":"å fly (flyr)", "pron":"å FLY (FLYR)", "en":"to fly (flies)" },
+        { "no":"å bære (bærer)", "pron":"å BÆR-e (BÆR-er)", "en":"to carry (carries)" },
+        { "no":"å løpe (løper)", "pron":"å LØ-pe (LØ-per)", "en":"to run (runs)" },
+        { "no":"å lese (leser)", "pron":"å LEH-se (LEH-ser)", "en":"to read (reads)" }
+      ]
+    },
+    {
+      "type": "tense_drill",
+      "title": "Tense Drill (nå / i går / i morgen)",
+      "items": [
+            { "no":"Nå flyr gutten en drage. I går fløy han en drage. I morgen skal han fly en drage.",
+            "pron":"NÅ FLYR GUT-ten en DRAH-ge. I GÅR FLØY han en DRAH-ge. I MOR-gen skal han FLY en DRAH-ge.",
+            "en":"Now the boy flies a kite. Yesterday he flew a kite. Tomorrow he will fly a kite." },
+            { "no":"Nå bærer hun skiene. I går bar hun skiene. I morgen skal hun bære skiene.",
+            "pron":"NÅ BÆR-er HUN SKI-ene. I GÅR BAR hun SKI-ene. I MOR-gen skal hun BÆR-e SKI-ene.",
+            "en":"Now she carries the skis. Yesterday she carried the skis. Tomorrow she will carry the skis." },
+            { "no":"Nå leser mannen avisen. I går leste han avisen. I morgen skal han lese avisen.",
+            "pron":"NÅ LEH-ser MAN-nen a-VEE-sen. I GÅR LES-te han a-VEE-sen. I MOR-gen skal han LEH-se a-VEE-sen.",
+            "en":"Now the man reads the newspaper. Yesterday he read the newspaper. Tomorrow he will read the newspaper." }
+        ]
+    },
+    {
+      "type": "connectors",
+      "title": "Connectors Practice",
+      "items": [
+        { "no":"Solen skinner, og barna leker.", "pron":"SO-len SKIN-ner, og BAR-na LEH-ker.", "en":"The sun is shining, and the children are playing." },
+        { "no":"Det er varmt, men kvinnen bærer ski.", "pron":"Det er VARMT, men KVIN-nen BÆR-er SKI.", "en":"It is warm, but the woman is carrying skis." },
+        { "no":"Hunden løper fordi den vil fange ballen.", "pron":"HUN-den LØ-per for-DI den vil FANG-e BAL-len.", "en":"The dog is running because it wants to catch the ball." },
+        { "no":"Gutten flyr en drage, så han smiler.", "pron":"GUT-ten FLYR en DRAH-ge, så han SMI-ler.", "en":"The boy is flying a kite, so he is smiling." },
+        { "no":"Mannen leser avisen, mens paret går tur.", "pron":"MAN-nen LEH-ser a-VEE-sen, mens PAH-ret GÅR TUR.", "en":"The man is reading the newspaper, while the couple is walking." }
+      ]
+    },
+    {
+      "type": "small_talk",
+      "title": "Small Talk",
+      "items": [
+        { "noQ":"Liker du å gå i parken?", "pronQ":"LEE-ker du å GÅ i PAR-ken?", "enQ":"Do you like going to the park?",
+      "noA":"Ja, jeg liker det veldig godt. Hva med deg?", "pronA":"YA, YAI LEE-ker de VEL-dig GOTT. Hva med DEG?", "enA":"Yes, I like it very much. What about you?" },
+        { "noQ":"Hva pleier du å gjøre i en park?", "pronQ":"Hva PLEI-er du å GJØR-e i en park?", "enQ":"What do you usually do in a park?",
+        "noA":"Jeg pleier å gå tur eller lese en bok. Og du?", "pronA":"YAI PLEI-er å GÅ TUR eller LEH-se en BOK. Og DU?", "enA":"I usually go for a walk or read a book. And you?" },
+        { "noQ":"Går du ofte i parken med venner?", "pronQ":"GÅR du OF-te i PAR-ken med VEN-ner?", "enQ":"Do you often go to the park with friends?",
+        "noA":"Ja, noen ganger. Vi spiller fotball der. Hva med deg?", "pronA":"YA, NO-en GANG-er. VI SPIL-ler FOT-ball der. Hva med DEG?", "enA":"Yes, sometimes. We play football there. What about you?" },
+        { "noQ":"Hva liker du best, å sitte eller å gå tur?", "pronQ":"Hva LEE-ker du BEST, å SIT-te eller å GÅ TUR?", "enQ":"What do you like best, sitting or walking?",
+        "noA":"Jeg liker best å gå tur fordi jeg vil være aktiv.", "pronA":"YAI LEE-ker BEST å GÅ TUR for-DI YAI vil VÆ-re AK-tiv.", "enA":"I like walking best because I want to be active." },
+        { "noQ":"Hvordan er parkene i hjemlandet ditt?", "pronQ":"HVOR-dan er PAR-kene i HJEM-land-et ditt?", "enQ":"What are the parks like in your home country?",
+        "noA":"De er litt annerledes, men jeg liker dem også.", "pronA":"De er LITT AN-ner-led-es, men YAI LEE-ker dem ÅG-så.", "enA":"They are a little different, but I like them too." }
+        ]
+    },
+    {
+      "type": "exercise_fill",
+      "title": "Fill-in-the-blanks",
+      "items": [
+        { "no":"Mannen ____ avisen på benken. (lese)", "pron":"MAN-nen ____ a-VEE-sen på BENK-en.", "en":"The man ____ the newspaper on the bench.", "ans":"leser" },
+        { "no":"Barna ____ på stien. (sykle)", "pron":"BAR-na ____ på STI-en.", "en":"The children ____ on the path.", "ans":"sykler" },
+        { "no":"Kvinnen ____ ski gjennom parken. (bære)", "pron":"KVIN-nen ____ SKI GJEN-nom PAR-ken.", "en":"The woman ____ skis through the park.", "ans":"bærer" },
+        { "no":"Hunden ____ etter ballen. (løpe)", "pron":"HUN-den ____ ET-ter BAL-len.", "en":"The dog ____ after the ball.", "ans":"løper" },
+        { "no":"Gutten ____ en drage høyt på himmelen. (fly)", "pron":"GUT-ten ____ en DRAH-ge HØYT på HIM-me-len.", "en":"The boy ____ a kite high in the sky.", "ans":"flyr" }
+     ]
+    },
+    {
+      "type": "exercise_correct",
+      "title": "Sentence Correction",
+      "items": [
+        { "wrong":"Han drage flyr.", "right":"Han flyr en drage.", "pron":"Han FLYR en DRAH-ge.", "tip":"Verb på plass 2 i setningen." },
+        { "wrong":"Kvinnen ski bærer.", "right":"Kvinnen bærer ski.", "pron":"KVIN-nen BÆR-er SKI.", "tip":"Verb på plass 2 i setningen." },
+        { "wrong":"To barn sykler er.", "right":"To barn sykler.", "pron":"To BARN SYK-ler.", "tip":"Fjern ekstra verb." },
+        { "wrong":"Mannen leser avis.", "right":"Mannen leser avisen.", "pron":"MAN-nen LEH-ser a-VEE-sen.", "tip":"Bruk bestemt form (avisen)." },
+        { "wrong":"De gå tur i parken.", "right":"De går tur i parken.", "pron":"De GÅR TUR i PAR-ken.", "tip":"Bøy verbet i presens (går)." }
+      ]
+    },
+    {
+      "type": "free_monologue",
+      "title": "Extended Free Description",
+      "items": [
+        {
+          "no": "Beskriv parken i ca. 2 minutter. Snakk om hvem som er der, hva de gjør, og hvordan været er.",
+          "pron": "Be-SKREEV PAR-ken i SA to mi-NU-ter. SNAKK om HVEM som er der, hva de JØR, og HVOR-dan VÆR-et er.",
+          "en": "Describe the park for about 2 minutes. Talk about who is there, what they are doing, and what the weather is like."
+        },
+        {
+          "no": "Beskriv parken i ca. 3 minutter. Fortell mer detaljert om menneskene, hva de gjør, og hvordan stemningen er. Sammenlign med dine egne erfaringer og si hva du liker å gjøre i en park.",
+          "pron": "Be-SKREEV PAR-ken i SA tre mi-NU-ter. For-TELL mer de-TALJ-ert om MEN-nes-ken-e, hva de JØR, og HVOR-dan STEM-ning-en er. SAM-men-lign med DINE EG-ne er-FAHR-ing-er og SI hva du LEE-ker å GJØR-e i en park.",
+          "en": "Describe the park for about 3 minutes. Tell in more detail about the people, what they are doing, and what the atmosphere is like. Compare with your own experiences and say what you like to do in a park."
+        }
+      ]
+    }
   ]
 }

@@ -1,30 +1,49 @@
 {
-  "title": "Section 4",
+  "title": "Section 4 – Task D: My everyday life",
   "slug": "section-4",
+  "image": "assets/everyday-life.png",
   "subsections": [
     {
-      "type": "describe_picture",
-      "title": "Describe the picture",
-      "tiers": {
-        "desc": [],
-        "qa": [],
-        "pronoun": [],
-        "miniFree": [],
-        "ex1": [],
-        "mono": []
+      "type": "telling_describing",
+      "title": "Task D – My everyday life",
+      "intro": {
+        "no": "Oppgave D: Snakk om hverdagen din. Snakk i 2–3 minutter.",
+        "pron": "OPP-ga-ve D: SNAKK om HVER-da-gen din. SNAKK i to–tre mi-NU-ter.",
+        "en": "Task D: Talk about your everyday life. Speak for 2–3 minutes."
       },
-      "verbs": []
-    },
-    { "type": "pronoun_drill", "title": "Pronoun Drill", "items": [] },
-    { "type": "qa_pack", "title": "Q&A Pack", "items": [] },
-    { "type": "vocab", "title": "Vocabulary Cycle", "items": [] },
-    { "type": "tense_drill", "title": "Tense Drill", "items": [] },
-    { "type": "connectors", "title": "Connectors Practice", "items": [] },
-    { "type": "small_talk", "title": "Small Talk", "items": [] },
-    { "type": "exercise_fill", "title": "Fill-in-the-blanks", "items": [] },
-    { "type": "exercise_correct", "title": "Sentence Correction", "items": [] },
-    { "type": "free_monologue", "title": "Extended Free Description", "items": [] }
+      "tips_student": [
+        { "no":"Ikke vær redd for å gjøre feil. Det viktigste er å prøve å snakke.", "pron":"IK-ke vær RÆDD for å GJØR-e feil. Det VIK-tig-ste er å PRØ-ve å SNAK-ke.", "en":"Don’t be afraid to make mistakes. The most important thing is to try to speak." },
+        { "no":"Bruk enkle ord og korte setninger.", "pron":"BRUK ENK-le ord og KOR-te SET-ning-er.", "en":"Use simple words and short sentences." },
+        { "no":"Tenk på: hvem, hva, hvor, når, hvordan, hvorfor.", "pron":"TENK på: Hvem, hva, hvor, når, HVOR-dan, HVOR-for.", "en":"Think about: who, what, where, when, how, why." }
+      ],
+      "tips_teacher": [
+        { "no":"La én elev snakke mens de andre lytter.", "pron":"La ÉN e-LEV SNAK-ke mens de AND-re LYT-ter.", "en":"Let one student speak while the others listen." },
+        { "no":"Bruk en stoppeklokke for å måle tid.", "pron":"BRUK en STOP-pe-klok-ke for å MÅ-le TID.", "en":"Use a stopwatch to time it." },
+        { "no":"Still hjelpespørsmål hvis eleven trenger det.", "pron":"STILL HJEL-pe-SPØRS-mål hvis e-LE-ven TREN-ger det.", "en":"Ask help questions if the student needs it." },
+        { "no":"Gi enkel tilbakemelding: Innhold, sammenheng, uttale.", "pron":"GI EN-kel til-BA-ke-meld-ing: INN-hold, SAM-men-heng, UT-ta-le.", "en":"Give simple feedback: content, coherence, pronunciation." }
+      ],
+      "main_question": {
+        "noQ": "Kan du fortelle om hverdagen din?",
+        "pronQ": "KAN du for-TELL-e om HVER-da-gen din?",
+        "enQ": "Can you tell me about your everyday life?"
+      },
+      "help_questions": [
+        { "noQ":"Når står du opp?", "pronQ":"NÅR står du opp?", "enQ":"When do you get up?" },
+        { "noQ":"Hva gjør du på dagtid?", "pronQ":"Hva JØR du på DAG-tid?", "enQ":"What do you do during the day?" },
+        { "noQ":"Hva gjør du om kvelden?", "pronQ":"Hva JØR du om KVEL-den?", "enQ":"What do you do in the evening?" }
+      ],
+      "model": [
+        { "no":"Jeg står opp klokka seks hver dag.", "pron":"YAI står opp KLOK-ka seks hver dag.", "en":"I get up at six o’clock every day." },
+        { "no":"Først pusser jeg tennene og tar en dusj.", "pron":"FØRST PUS-ser YAI TEN-ne-ne og TAR en DUSJ.", "en":"First I brush my teeth and take a shower." },
+        { "no":"Så spiser jeg frokost, vanligvis brød med ost og kaffe.", "pron":"SÅ SPI-ser YAI FRO-kost, VAN-lig-vis BRØD med OST og KAF-fe.", "en":"Then I eat breakfast, usually bread with cheese and coffee." },
+        { "no":"Jeg drar på jobb klokka sju, og jeg tar bussen.", "pron":"YAI DRAR på JOBB KLOK-ka sju, og YAI TAR BUS-sen.", "en":"I go to work at seven o’clock, and I take the bus." },
+        { "no":"På jobben jobber jeg med kollegaer, og vi har møter og pauser.", "pron":"PÅ JOB-ben JOB-ber YAI med ko-LE-ga-er, og VI har MØ-ter og PAU-ser.", "en":"At work I work with colleagues, and we have meetings and breaks." },
+        { "no":"Jeg spiser lunsj rundt klokka elleve.", "pron":"YAI SPI-ser LUNSJ rundt KLOK-ka el-LE-ve.", "en":"I eat lunch around eleven o’clock." },
+        { "no":"Etter jobb drar jeg hjem, og noen ganger trener jeg.", "pron":"ET-ter JOBB DRAR YAI HJEM, og NO-en GANG-er TREH-ner YAI.", "en":"After work I go home, and sometimes I exercise." },
+        { "no":"Om kvelden lager jeg middag og ser litt på TV.", "pron":"OM KVEL-den LAH-ger YAI MID-dag og SER litt på TEH-VEH.", "en":"In the evening I cook dinner and watch a little TV." },
+        { "no":"Jeg ringer ofte familien min, fordi jeg vil snakke med dem.", "pron":"YAI RIN-ger OF-te fa-MI-li-en min, for-DI YAI vil SNAK-ke med dem.", "en":"I often call my family, because I want to talk with them." },
+        { "no":"Til slutt legger jeg meg rundt klokka ti, fordi jeg må stå opp tidlig.", "pron":"TIL SLUTT LEG-ger YAI meg rundt KLOK-ka ti, for-DI YAI må stå opp TI-dlig.", "en":"Finally I go to bed around ten o’clock, because I must get up early." }
+      ]
+    }
   ]
 }
-
-

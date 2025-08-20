@@ -3,7 +3,7 @@
     { "ID": "A2_1", "title": "Section 1", "slug": "section-1", "file": "section-1.json" },
     { "ID": "A2_2", "title": "Section 2", "slug": "section-2", "file": "section-2.json" },
     { "ID": "A2_3", "title": "Section 3", "slug": "section-3", "file": "section-3.json" },
-    { "ID": "A2_4", "title": "Section 4", "slug": "section-4", "file": "section-4.json" },
+    { "ID":"A2_4", "title":"Section 4 – Everyday Life", "slug":"section-4", "file":"section-4.json" },
     { "ID": "A2_5", "title": "Section 5", "slug": "section-5", "file": "section-5.json" },
     { "ID": "A2_6", "title": "Section 6", "slug": "section-6", "file": "section-6.json" },
     { "ID": "A2_7", "title": "Section 7", "slug": "section-7", "file": "section-7.json" },

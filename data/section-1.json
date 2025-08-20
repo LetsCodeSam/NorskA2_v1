@@ -1,0 +1,72 @@
+{
+  "title": "Section 1 – Park Scene",
+  "slug": "section-1",
+  "subsections": [
+    {
+      "type": "describe_picture",
+      "title": "Describe the picture",
+      "tiers": {
+        "desc": [
+          { "no":"En gutt flyr en drage.", "pron":"En GUTT FLYR en DRAH-ge.", "en":"A boy is flying a kite." },
+          { "no":"En kvinne bærer ski gjennom parken.", "pron":"En KVIN-ne BÆR-er ski GJEN-nom PAR-ken.", "en":"A woman carries skis through the park." },
+          { "no":"En hund løper etter ballen.", "pron":"En HUND LØ-per ET-ter BAL-len.", "en":"A dog runs after the ball." },
+          { "no":"To barn sykler på stien.", "pron":"To BARN SYK-ler på STI-en.", "en":"Two children are cycling on the path." },
+          { "no":"En mann sitter på en benk og leser avisen.", "pron":"En MANN SIT-ter på en BENK og LEH-ser a-VEE-sen.", "en":"A man is sitting on a bench and reading the newspaper." },
+          { "no":"Et par går tur sammen med en barnevogn.", "pron":"Et PAR går TUR SAM-men med en BAR-ne-vogn.", "en":"A couple are walking together with a stroller." },
+          { "no":"Solen skinner, og himmelen er blå.", "pron":"SO-len SKIN-ner, og HIM-me-len er BLÅ.", "en":"The sun is shining, and the sky is blue." },
+          { "no":"Trærne er grønne og vakre.", "pron":"TRÆR-ne er GRØN-ne og VAK-re.", "en":"The trees are green and beautiful." }
+        ],
+        "qa": [
+          { "noQ":"Hva gjør gutten?", "pronQ":"Hva JØR GUT-ten?", "enQ":"What is the boy doing?",
+            "noA":"Han flyr en drage.", "pronA":"Han FLYR en DRAH-ge.", "enA":"He is flying a kite." },
+          { "noQ":"Hva gjør kvinnen med skiene?", "pronQ":"Hva JØR KVIN-nen med SKI-ene?", "enQ":"What is the woman with the skis doing?",
+            "noA":"Hun bærer ski gjennom parken.", "pronA":"Hun BÆR-er SKI GJEN-nom PAR-ken.", "enA":"She is carrying skis through the park." },
+          { "noQ":"Hva gjør hunden?", "pronQ":"Hva JØR HUN-den?", "enQ":"What is the dog doing?",
+            "noA":"Den løper etter ballen.", "pronA":"DEN LØ-per ET-ter BAL-len.", "enA":"It is running after the ball." }
+        ],
+        "pronoun": [
+          { "no":"Jeg ser en gutt. Han flyr en drage.", "pron":"YAI ser en GUTT. HAN FLYR en DRAH-ge.", "en":"I see a boy. He is flying a kite." },
+          { "no":"Jeg ser en kvinne. Hun bærer ski.", "pron":"YAI ser en KVIN-ne. HUN BÆR-er SKI.", "en":"I see a woman. She is carrying skis." },
+          { "no":"Jeg ser to barn. De sykler på stien.", "pron":"YAI ser to BARN. DE SYK-ler på STI-en.", "en":"I see two children. They are cycling on the path." }
+        ],
+        "miniFree": [
+          { "no":"Jeg ser mange mennesker i parken. De leker, går tur og koser seg i solen.", "pron":"YAI ser MAN-ge MEN-nes-ker i PAR-ken. DE LEH-ker, går TUR og KOH-ser seg i SO-len.", "en":"I see many people in the park. They are playing, walking, and enjoying the sun." }
+        ],
+        "ex1": [
+          { "no":"Gutten ____ en drage. (fly)", "pron":"GUT-ten ____ en DRAH-ge.", "en":"The boy ____ a kite.", "ans":"flyr" },
+          { "no":"Kvinnen ____ ski gjennom parken. (bære)", "pron":"KVIN-nen ____ ski GJEN-nom PAR-ken.", "en":"The woman ____ skis through the park.", "ans":"bærer" },
+          { "no":"Hunden ____ etter ballen. (løpe)", "pron":"HUN-den ____ ET-ter BAL-len.", "en":"The dog ____ after the ball.", "ans":"løper" }
+        ],
+        "mono": [
+          { "no":"Beskriv parken i ca. 2 minutter. Snakk om hvem som er der, hva de gjør, og hvordan været er.", 
+            "pron":"Be-SKREEV PAR-ken i SA to mi-NU-ter. SNAKK om Hvem som er der, hva de JØR, og HVOR-dan VÆR-et er.", 
+            "en":"Describe the park for about 2 minutes. Talk about who is there, what they are doing, and what the weather is like." },
+
+          { "no":"Beskriv parken i ca. 3 minutter. Fortell mer detaljert om menneskene, hva de gjør, og hvordan stemningen er. Sammenlign med dine egne erfaringer og si hva du liker å gjøre i en park.", 
+            "pron":"Be-SKREEV PAR-ken i SA tre mi-NU-ter. For-TELL mer de-TALJ-ert om MEN-nes-ken-e, hva de JØR, og HVOR-dan STEM-ning-en er. SAM-men-lign med DINE EG-ne er-FAHR-ing-er og SI hva du LEE-ker å GJØR-e i en park.", 
+            "en":"Describe the park for about 3 minutes. Tell in more detail about the people, what they are doing, and what the atmosphere is like. Compare with your own experiences and say what you like to do in a park." }
+        ]
+      },
+      "verbs": [
+        { "inf":"fly", "pres":"flyr", "pret":"fløy", "perf":"har fløyet", "fut":"skal fly", "notes":"⚠ irregular" },
+        { "inf":"bære", "pres":"bærer", "pret":"bar", "perf":"har båret", "fut":"skal bære", "notes":"⚠ irregular" },
+        { "inf":"løpe", "pres":"løper", "pret":"løp", "perf":"har løpt", "fut":"skal løpe", "notes":"⚠ irregular" },
+        { "inf":"sykle", "pres":"sykler", "pret":"syklet", "perf":"har syklet", "fut":"skal sykle", "notes":"" },
+        { "inf":"sitte", "pres":"sitter", "pret":"satt", "perf":"har sittet", "fut":"skal sitte", "notes":"⚠ irregular" },
+        { "inf":"lese", "pres":"leser", "pret":"leste", "perf":"har lest", "fut":"skal lese", "notes":"" },
+        { "inf":"gå", "pres":"går", "pret":"gikk", "perf":"har gått", "fut":"skal gå", "notes":"⚠ irregular" },
+        { "inf":"skinne", "pres":"skinner", "pret":"skinny", "perf":"har skint", "fut":"skal skinne", "notes":"" },
+        { "inf":"være", "pres":"er", "pret":"var", "perf":"har vært", "fut":"skal være", "notes":"⚠ irregular" }
+      ]
+    },
+    { "type": "pronoun_drill", "title": "Pronoun Drill", "items": [] },
+    { "type": "qa_pack", "title": "Q&A Pack", "items": [] },
+    { "type": "vocab", "title": "Vocabulary Cycle", "items": [] },
+    { "type": "tense_drill", "title": "Tense Drill", "items": [] },
+    { "type": "connectors", "title": "Connectors Practice", "items": [] },
+    { "type": "small_talk", "title": "Small Talk", "items": [] },
+    { "type": "exercise_fill", "title": "Fill-in-the-blanks", "items": [] },
+    { "type": "exercise_correct", "title": "Sentence Correction", "items": [] },
+    { "type": "free_monologue", "title": "Extended Free Description", "items": [] }
+  ]
+}

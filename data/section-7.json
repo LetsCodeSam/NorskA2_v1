@@ -1,0 +1,30 @@
+{
+  "title": "Section 7",
+  "slug": "section-7",
+  "subsections": [
+    {
+      "type": "describe_picture",
+      "title": "Describe the picture",
+      "tiers": {
+        "desc": [],
+        "qa": [],
+        "pronoun": [],
+        "miniFree": [],
+        "ex1": [],
+        "mono": []
+      },
+      "verbs": []
+    },
+    { "type": "pronoun_drill", "title": "Pronoun Drill", "items": [] },
+    { "type": "qa_pack", "title": "Q&A Pack", "items": [] },
+    { "type": "vocab", "title": "Vocabulary Cycle", "items": [] },
+    { "type": "tense_drill", "title": "Tense Drill", "items": [] },
+    { "type": "connectors", "title": "Connectors Practice", "items": [] },
+    { "type": "small_talk", "title": "Small Talk", "items": [] },
+    { "type": "exercise_fill", "title": "Fill-in-the-blanks", "items": [] },
+    { "type": "exercise_correct", "title": "Sentence Correction", "items": [] },
+    { "type": "free_monologue", "title": "Extended Free Description", "items": [] }
+  ]
+}
+
+
